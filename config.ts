@@ -3,6 +3,5 @@ export const modules = {
         active: true,
         path: "./modules/paises/routes",
         route: "/modules/paises",
-    },
-    
+    }
 };
