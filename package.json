@@ -1,0 +1,28 @@
+{
+  "name": "final-avila",
+  "version": "1.0.0",
+  "description": "Examen Final Programacion Web 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lautiavila96/finalAvila.git"
+  },
+  "author": "Lautaro Avila",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lautiavila96/finalAvila/issues"
+  },
+  "homepage": "https://github.com/lautiavila96/finalAvila#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.1",
+    "mongoose": "^6.1.1",
+    "require-dir": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.12"
+  }
+}
