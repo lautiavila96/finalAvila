@@ -9,10 +9,10 @@ router.post("/paises", async (req, res) => {
       const paises = new PaisesSchema.paises(newPais);
       const paisNuevo = await paises.save();
       console.log("Pais agregado", paisNuevo);
-      return res.status(200).send({ status: "success", data: paisNuevo });
+      return res.status(200).send({status: "success", data: paisNuevo });
     } catch (err) {
       console.log("Error: ", err);
-      return res.status(404).send({ status: "error", data: err });
+      return res.status(404).send({status: "error", data: err });
     }
   });
   
