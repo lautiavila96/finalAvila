@@ -17,6 +17,7 @@ router.post("/paises", async (req, res) => {
   });
   
   router.get("/paises", async (req, res) => {
+    console.log("Entra a paises")
     try {
       let paises = await PaisesSchema.paises.find();
       console.log("Paises registrados!", paises);
